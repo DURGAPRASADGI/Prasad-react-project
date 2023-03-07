@@ -1,0 +1,24 @@
+$color: white;
+$background-color: blue;
+$border-radius: 5px;
+$border: none;
+$width: 100px;
+$height: 40px;
+$hover-bgcolor: rgb(60, 25, 216);
+$cursor: pointer;
+.a {
+  button {
+    color: $color;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    border: $border;
+    width: $width;
+    height: $height;
+    cursor: $cursor;
+  }
+  :hover {
+    background-color: $hover-bgcolor;
+  }
+}
+
+
